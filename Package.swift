@@ -21,6 +21,7 @@ let package = Package(
     dependencies: [
         
           .package(url: "https://github.com/HossanDev/RepositoryModule.git", branch: "main"),
+            .package(url: "https://github.com/HossanDev/NetworkModule.git", branch: "main"),
         
     ],
     
@@ -28,13 +29,7 @@ let package = Package(
         // Targets are the basic building blocks of a package, defining a module or a test suite.
         // Targets can depend on other targets in this package and products from dependencies.
         .target(
-            name: "SharedUI",
-        
-            dependencies: [
-                .product(name: "RepositoryModule", package: "RepositoryModule"),
-                .product(name: "NetworkModule", package: "NetworkModule"),
-            ])
-        ,
+            name: "SharedUI"),
 
     ]
 )
