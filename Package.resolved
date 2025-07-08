@@ -1,0 +1,24 @@
+{
+  "originHash" : "2b0c6ef0f27389316b5c1cd4c6858a2b53aabbe705b1d4a686193dff6986c2dc",
+  "pins" : [
+    {
+      "identity" : "networkmodule",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/HossanDev/NetworkModule.git",
+      "state" : {
+        "branch" : "main",
+        "revision" : "ae28799e34af5c0234b6e423739f7aad18158b0f"
+      }
+    },
+    {
+      "identity" : "repositorymodule",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/HossanDev/RepositoryModule.git",
+      "state" : {
+        "branch" : "main",
+        "revision" : "0f09eb7651987e26d4bbafa7b55d87eab99939e7"
+      }
+    }
+  ],
+  "version" : 3
+}
