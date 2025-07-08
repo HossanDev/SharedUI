@@ -11,10 +11,12 @@ import RepositoryModule
 public struct ProfileHeaderView: View {
   public let feedElement: FeedElement
   public let profileImageSize: CGFloat
+  public var onProfileTap: (() -> Void)? = nil
   
-  public init(feedElement: FeedElement, profileImageSize: CGFloat) {
+  public init(feedElement: FeedElement, profileImageSize: CGFloat, onProfileTap: (() -> Void)? = nil) {
     self.feedElement = feedElement
     self.profileImageSize = profileImageSize
+    self.onProfileTap = onProfileTap
   }
   
   public var body: some View {
