@@ -28,12 +28,20 @@ public struct ProfileHeaderView: View {
           .scaledToFill()
           .frame(width: profileImageSize, height: profileImageSize)
           .clipShape(Circle())
+          .onTapGesture {
+                     print("Profile image tapped")  // Debug print
+                     onProfileTap?()
+                   }
         
       } else {
         Image(systemName: "person.circle.fill")
           .resizable()
           .frame(width: profileImageSize, height: profileImageSize)
           .foregroundColor(.gray)
+          .onTapGesture {
+                     print("Profile image tapped")  // Debug print
+                     onProfileTap?()
+                   }
       }
       
       Text(feedElement.user?.instagramUsername ?? "Unknown user")
