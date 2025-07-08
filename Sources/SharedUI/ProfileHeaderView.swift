@@ -11,12 +11,10 @@ import RepositoryModule
 public struct ProfileHeaderView: View {
   public let feedElement: FeedElement
   public let profileImageSize: CGFloat
-  public var onProfileTap: (() -> Void)? = nil
   
-  public init(feedElement: FeedElement, profileImageSize: CGFloat, onProfileTap: (() -> Void)? = nil) {
+  public init(feedElement: FeedElement, profileImageSize: CGFloat) {
     self.feedElement = feedElement
     self.profileImageSize = profileImageSize
-    self.onProfileTap = onProfileTap
   }
   
   public var body: some View {
@@ -28,20 +26,11 @@ public struct ProfileHeaderView: View {
           .scaledToFill()
           .frame(width: profileImageSize, height: profileImageSize)
           .clipShape(Circle())
-          .onTapGesture {
-                     print("Profile image tapped")  // Debug print
-                     onProfileTap?()
-                   }
-        
       } else {
         Image(systemName: "person.circle.fill")
           .resizable()
           .frame(width: profileImageSize, height: profileImageSize)
           .foregroundColor(.gray)
-          .onTapGesture {
-                     print("Profile image tapped")  // Debug print
-                     onProfileTap?()
-                   }
       }
       
       Text(feedElement.user?.instagramUsername ?? "Unknown user")
