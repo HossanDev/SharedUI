@@ -60,5 +60,3 @@ public struct FeedAsyncImageView: View {
     .cornerRadius(12)
   }
 }
-
-
