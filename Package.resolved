@@ -1,5 +1,5 @@
 {
-  "originHash" : "502c055167696005db271b242efd0bab18425da5c88f119a58f8aedb9445ed20",
+  "originHash" : "c1b77b5be885bb3162837d43a73d0dc1196d70f0bbd920a21315172a1e2d1c4e",
   "pins" : [
     {
       "identity" : "networkmodule",
@@ -16,7 +16,7 @@
       "location" : "https://github.com/HossanDev/RepositoryModule.git",
       "state" : {
         "branch" : "main",
-        "revision" : "941dbcdb05c6eaaf4e33f630c137ec8d044530a1"
+        "revision" : "8ae3ca8c3fa9362f2a327bda9addfe39e599b062"
       }
     }
   ],
