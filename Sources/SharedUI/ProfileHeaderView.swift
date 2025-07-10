@@ -5,6 +5,7 @@
 //  Created by MohammadHossan on 08/07/2025.
 //
 import SwiftUI
+import ModelModule
 import RepositoryModule
 
 // MARK: - ProfileHeaderView

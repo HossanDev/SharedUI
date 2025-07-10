@@ -20,6 +20,7 @@ let package = Package(
     dependencies: [
         .package(url: "https://github.com/HossanDev/RepositoryModule.git", branch: "main"),
         .package(url: "https://github.com/HossanDev/NetworkModule.git", branch: "main"),
+        .package(url: "https://github.com/HossanDev/ModelModule.git", branch: "main"),
     ],
     
     targets: [
@@ -27,7 +28,8 @@ let package = Package(
             name: "SharedUI",
             dependencies: [
                 .product(name: "RepositoryModule", package: "RepositoryModule"),
-                .product(name: "NetworkModule", package: "NetworkModule")
+                .product(name: "NetworkModule", package: "NetworkModule"),
+                .product(name: "ModelModule", package: "ModelModule")
             ]
         ),
     ]

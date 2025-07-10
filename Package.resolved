@@ -1,6 +1,15 @@
 {
-  "originHash" : "c1b77b5be885bb3162837d43a73d0dc1196d70f0bbd920a21315172a1e2d1c4e",
+  "originHash" : "548b5ac8460f3d244099a01e5da35e98b588c67764ceddb4aad735aedf9c6f3d",
   "pins" : [
+    {
+      "identity" : "modelmodule",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/HossanDev/ModelModule.git",
+      "state" : {
+        "branch" : "main",
+        "revision" : "f58e8af2d3e816b2f00fbc100d9e041e41cbb801"
+      }
+    },
     {
       "identity" : "networkmodule",
       "kind" : "remoteSourceControl",
@@ -16,7 +25,7 @@
       "location" : "https://github.com/HossanDev/RepositoryModule.git",
       "state" : {
         "branch" : "main",
-        "revision" : "8ae3ca8c3fa9362f2a327bda9addfe39e599b062"
+        "revision" : "789d8fa08e5f3313a26b21a881f23f218daba1ab"
       }
     }
   ],
