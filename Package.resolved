@@ -16,7 +16,7 @@
       "location" : "https://github.com/HossanDev/NetworkModule.git",
       "state" : {
         "branch" : "main",
-        "revision" : "ae28799e34af5c0234b6e423739f7aad18158b0f"
+        "revision" : "2a4cefc3704ebe764be5078dfa472fb7bb574b9b"
       }
     },
     {
@@ -25,7 +25,7 @@
       "location" : "https://github.com/HossanDev/RepositoryModule.git",
       "state" : {
         "branch" : "main",
-        "revision" : "019bcad8d399e4e97a2dc882d47413cc0a3b9dfa"
+        "revision" : "7befcde62704be72783bd6aae63e26897b8ebcff"
       }
     }
   ],
